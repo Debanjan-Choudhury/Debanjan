@@ -1,0 +1,74 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 13%; /* #222222 */
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 13%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 13%;
+
+    --primary: 0 0% 13%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 48%; /* #7b7b7b */
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 0 0% 97%; /* #f8f8f8 */
+    --muted-foreground: 0 0% 48%;
+
+    --accent: 0 0% 97%;
+    --accent-foreground: 0 0% 13%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 0 0% 13%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-tertiary text-primary font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+  }
+}
+
+@layer components {
+  .bento-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6;
+  }
+  
+  .bento-item {
+    @apply bg-white rounded-xl p-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg overflow-hidden;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-2;
+  }
+  
+  .section-subtitle {
+    @apply text-lg text-secondary mb-8;
+  }
+  
+  .container-custom {
+    @apply w-full max-w-7xl mx-auto px-4 md:px-8;
+  }
+}
