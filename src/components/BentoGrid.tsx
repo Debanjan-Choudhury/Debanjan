@@ -14,13 +14,12 @@ const Projects = () => {
       type: 'video'
     },
     {
-    media: 'https://www.youtube.com/embed/cj6yt-XhiMw?autoplay=1&mute=1&controls=0&loop=1&playlist=cj6yt-XhiMw',
-    title: 'Nissan GTR',
-    description: '3D Animation',
-    category: 'regular',
-    type: 'video'
-    }
-      ,
+      media: 'https://www.youtube.com/embed/cj6yt-XhiMw?autoplay=1&mute=1&controls=0&loop=1&playlist=cj6yt-XhiMw',
+      title: '3d Perfume animation',
+      description: '3D Modeling, 3D Animation, Video Editing, Color Grading',
+      category: 'regular',
+      type: 'video'
+    },
     {
       media: 'https://www.youtube.com/embed/XCDyFU4Odrs?autoplay=1&mute=1&controls=0&loop=1&playlist=XCDyFU4Odrs',
       title: 'Nike Ad',
@@ -30,39 +29,39 @@ const Projects = () => {
     },
     {
       media: 'https://www.youtube.com/embed/VXTIOOkPtPY?autoplay=1&mute=1&controls=0&loop=1&playlist=VXTIOOkPtPY', // YouTube Shorts with autoplay, mute, and loop
-      title: 'Stopmotion',
-      description: 'Animation, Video Editing',
+      title: '2d Animation',
+      description: '2d Animation,  Video Editing, Colorgrading',
       category: 'tall',
       type: 'video'
     },
     {
       media: 'https://www.youtube.com/embed/840c6ui8DC4?autoplay=1&mute=1&controls=0&loop=1&playlist=840c6ui8DC4',
-      title: 'Cinematic Video',
-      description: 'Cinematography, Video Editing, Colorgrading',
+      title: '3D Scenery',
+      description: '3D modeling , Color grading , Texturing',
       category: 'regular',
       type: 'video'
     },
     {
       media: 'https://www.youtube.com/embed/zEVyui39KtI?autoplay=1&mute=1&controls=0&loop=1&playlist=zEVyui39KtI',
-      title: 'Cinematic Video',
-      description: 'Cinematography, Video Editing, Colorgrading',
+      title: '3D Bottle Animaiton',
+      description: '3D Modeling, 3D Animation, Video Editing, Color Grading',
       category: 'regular',
       type: 'video'
     },
     {
       media: 'https://www.youtube.com/embed/WFzH1v0SVwo?autoplay=1&mute=1&controls=0&loop=1&playlist=WFzH1v0SVwo', // YouTube video with autoplay, mute, and loop
-      title: 'Cinematic Video',
-      description: 'Cinematography, Video Editing, Colorgrading',
+      title: 'Stopmotion',
+      description: ' Video Editing, Colorgrading',
       category: 'tall',
       type: 'video'
     },
     {
-    media: 'https://www.youtube.com/embed/SsV__wvIO8g?autoplay=1&mute=1&controls=0&loop=1&playlist=SsV__wvIO8g',
-    title: 'Cinematic Video',
-    description: 'Cinematography, Video Editing, Colorgrading',
-    category: 'large',
-    type: 'video'
-  }
+      media: 'https://www.youtube.com/embed/SsV__wvIO8g?autoplay=1&mute=1&controls=0&loop=1&playlist=SsV__wvIO8g',
+      title: 'Cinematic Video',
+      description: 'Cinematography, Video Editing, Colorgrading',
+      category: 'large',
+      type: 'video'
+    }
   ];
 
   return (
@@ -122,12 +121,7 @@ const Projects = () => {
               <div className="bento-overlay">
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
-                <Link 
-                  to={`/projects/${item.title.toLowerCase().replace(/ /g, '-')}`} 
-                  className="bento-link"
-                >
-                  View Project
-                </Link>
+                {/* Removed View Project Link */}
               </div>
             </div>
           ))}
