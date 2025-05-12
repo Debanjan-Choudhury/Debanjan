@@ -14,14 +14,15 @@ const Projects = () => {
       type: 'video'
     },
     {
-      media: '/GTR.mp4',
-      title: 'Nissan GTR',
-      description: '3D Animation',
-      category: 'regular',
-      type: 'video'
-    },
+    media: 'https://www.youtube.com/embed/cj6yt-XhiMw?autoplay=1&mute=1&controls=0&loop=1&playlist=cj6yt-XhiMw',
+    title: 'Nissan GTR',
+    description: '3D Animation',
+    category: 'regular',
+    type: 'video'
+    }
+      ,
     {
-      media: '/nike ad1.mp4',
+      media: 'https://www.youtube.com/embed/XCDyFU4Odrs?autoplay=1&mute=1&controls=0&loop=1&playlist=XCDyFU4Odrs',
       title: 'Nike Ad',
       description: 'Motion Graphics',
       category: 'regular',
@@ -35,14 +36,14 @@ const Projects = () => {
       type: 'video'
     },
     {
-      media: '/Cine1.mp4',
+      media: 'https://www.youtube.com/embed/840c6ui8DC4?autoplay=1&mute=1&controls=0&loop=1&playlist=840c6ui8DC4',
       title: 'Cinematic Video',
       description: 'Cinematography, Video Editing, Colorgrading',
       category: 'regular',
       type: 'video'
     },
     {
-      media: '/Cine2.mp4',
+      media: 'https://www.youtube.com/embed/zEVyui39KtI?autoplay=1&mute=1&controls=0&loop=1&playlist=zEVyui39KtI',
       title: 'Cinematic Video',
       description: 'Cinematography, Video Editing, Colorgrading',
       category: 'regular',
@@ -56,12 +57,12 @@ const Projects = () => {
       type: 'video'
     },
     {
-      media: '/Cine4.mp4',
-      title: 'Cinematic Video',
-      description: 'Cinematography, Video Editing, Colorgrading',
-      category: 'large',
-      type: 'video'
-    }
+    media: 'https://www.youtube.com/embed/SsV__wvIO8g?autoplay=1&mute=1&controls=0&loop=1&playlist=SsV__wvIO8g',
+    title: 'Cinematic Video',
+    description: 'Cinematography, Video Editing, Colorgrading',
+    category: 'large',
+    type: 'video'
+  }
   ];
 
   return (
