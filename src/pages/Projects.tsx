@@ -66,6 +66,48 @@ const projects = [
     category: "UGC Content",
     youtubeLink: "https://youtube.com/shorts/WFzH1v0SVwo",
     description: "Authentic user-generated style content created for product marketing and social media campaigns.",
+  },
+  {
+    id: 10,
+    title: "UGC Product Campaign",
+    category: "Motion Graphics",
+    youtubeLink: "https://youtu.be/rpHn9HLFPLw",
+    description: "Authentic user-generated style content created for product marketing and social media campaigns.",
+  },
+  {
+    id: 11,
+    titl: "UGC Product Campaign",
+    category: "Motion Graphics",
+    youtubeLink: "https://youtu.be/LnPN6qYFqi0",
+    description: "Authentic user-generated style content created for product marketing and social media campaigns.",
+  },
+  {
+    id: 12,
+    title: "UGC Product Campaign",
+    category: "Motion Graphics",
+    youtubeLink: "https://youtu.be/2vW3nfARmbA",
+    description: "Authentic user-generated style content created for product marketing and social media campaigns.",
+  },
+  {
+    id: 13,
+    title: "UGC Product Campaign",
+    category: "Cinematic Editing",
+    youtubeLink: "https://youtu.be/cSAwE67ab38",
+    description: "Authentic user-generated style content created for product marketing and social media campaigns.",
+  },
+  {
+    id: 14,
+    title: "UGC Product Campaign",
+    category: "Cinematic Editing",
+    youtubeLink: "https://youtu.be/SsV__wvIO8g",
+    description: "Authentic user-generated style content created for product marketing and social media campaigns.",
+  },
+  {
+    id: 15,
+    title: "",
+    category: "Cinematic Editing",
+    youtubeLink: "https://youtu.be/_AGyJc-88ao",
+    description: "",
   }
 ];
 
@@ -173,11 +215,8 @@ const Projects = () => {
                       {project.category}
                     </div>
                   </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                    <p className="text-secondary mb-4">{project.description}</p>
-                    <button className="text-primary font-medium hover:underline">View Details</button>
-                  </div>
+
+                  {/* Removed title, description, and view details */}
                 </div>
               );
             })}
