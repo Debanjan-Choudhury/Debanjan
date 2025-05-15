@@ -14,14 +14,14 @@ const Projects = () => {
       type: 'video'
     },
     {
-      media: 'https://www.youtube.com/embed/cj6yt-XhiMw?autoplay=1&mute=1&controls=0&loop=1&playlist=cj6yt-XhiMw',
-      title: '3d Perfume animation',
+      media: "https://www.youtube.com/embed/Swl7FQjJTiI?autoplay=1&mute=1&controls=0&loop=1&playlist=Swl7FQjJTiI",
+      title: '3d Headphone',
       description: '3D Modeling, 3D Animation, Video Editing, Color Grading',
       category: 'regular',
       type: 'video'
     },
     {
-      media: 'https://www.youtube.com/embed/XCDyFU4Odrs?autoplay=1&mute=1&controls=0&loop=1&playlist=XCDyFU4Odrs',
+      media: 'https://www.youtube.com/embed/cj6yt-XhiMw?autoplay=1&mute=1&controls=0&loop=1&playlist=cj6yt-XhiMw',
       title: 'Nike Ad',
       description: 'Motion Graphics',
       category: 'regular',
