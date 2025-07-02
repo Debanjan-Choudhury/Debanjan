@@ -21,8 +21,8 @@ const Projects = () => {
       type: 'video'
     },
     {
-      media: 'https://www.youtube.com/embed/cj6yt-XhiMw?autoplay=1&mute=1&controls=0&loop=1&playlist=cj6yt-XhiMw',
-      title: 'Nike Ad',
+      media: 'https://www.youtube.com/embed/HnpfE00rBiU?autoplay=1&mute=1&controls=0&loop=1&playlist=HnpfE00rBiU',
+      title: 'MOtion Graphics Reel',
       description: 'Motion Graphics',
       category: 'regular',
       type: 'video'

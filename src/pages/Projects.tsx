@@ -108,6 +108,27 @@ const projects = [
     category: "Cinematic Editing",
     youtubeLink: "https://youtu.be/_AGyJc-88ao",
     description: "",
+  },
+  {
+    id: 16,
+    title: "Modern Product Animation",
+    category: "3D Animation",
+    youtubeLink: "https://www.youtube.com/shorts/FYl1A4v_l0U",
+    description: "3D animation showcasing a product from all angles with detailed rendering and lighting.",
+  },
+  {
+    id: 17,
+    title: "UGC Product Campaign",
+    category: "Motion Graphics",
+    youtubeLink: "https://www.youtube.com/shorts/iQ7SO6M3pRg",
+    description: "Authentic user-generated style content created for product marketing and social media campaigns.",
+  },
+  {
+    id: 18,
+    title: "UGC Product Campaign",
+    category: "Motion Graphics",
+    youtubeLink: "https://www.youtube.com/shorts/HnpfE00rBiU",
+    description: "Authentic user-generated style content created for product marketing and social media campaigns.",
   }
 ];
 
