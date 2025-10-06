@@ -26,6 +26,27 @@ const projects = [
     description: "Complete brand identity package including logo, color palette, typography, and brand guidelines.",
   },
   {
+    id: 12,
+    title: "UGC Product Campaign",
+    category: "Motion Graphics",
+    youtubeLink: "https://www.youtube.com/shorts/HnpfE00rBiU",
+    description: "Authentic user-generated style content created for product marketing and social media campaigns.",
+  },
+  {
+    id: 11,
+    title: "UGC Product Campaign",
+    category: "Motion Graphics",
+    youtubeLink: "https://www.youtube.com/shorts/qJJ0oVIbiyA",
+    description: "Authentic user-generated style content created for product marketing and social media campaigns.",
+  },
+  {
+    id: 10,
+    title: "UGC Product Campaign",
+    category: "Motion Graphics",
+    youtubeLink: "https://www.youtube.com/shorts/eyp9NzYDTkQ",
+    description: "Authentic user-generated style content created for product marketing and social media campaigns.",
+  },
+  {
     id: 4,
     title: "UGC Product Campaign",
     category: "UGC Content",
@@ -67,22 +88,23 @@ const projects = [
     youtubeLink: "https://youtube.com/shorts/WFzH1v0SVwo",
     description: "Authentic user-generated style content created for product marketing and social media campaigns.",
   },
+  
   {
-    id: 10,
+    id: 20,
     title: "UGC Product Campaign",
     category: "Motion Graphics",
     youtubeLink: "https://youtu.be/rpHn9HLFPLw",
     description: "Authentic user-generated style content created for product marketing and social media campaigns.",
   },
   {
-    id: 11,
+    id: 19,
     titl: "UGC Product Campaign",
     category: "Motion Graphics",
     youtubeLink: "https://youtu.be/LnPN6qYFqi0",
     description: "Authentic user-generated style content created for product marketing and social media campaigns.",
   },
   {
-    id: 12,
+    id: 18,
     title: "UGC Product Campaign",
     category: "Motion Graphics",
     youtubeLink: "https://youtu.be/2vW3nfARmbA",
@@ -122,14 +144,8 @@ const projects = [
     category: "Motion Graphics",
     youtubeLink: "https://www.youtube.com/shorts/iQ7SO6M3pRg",
     description: "Authentic user-generated style content created for product marketing and social media campaigns.",
-  },
-  {
-    id: 18,
-    title: "UGC Product Campaign",
-    category: "Motion Graphics",
-    youtubeLink: "https://www.youtube.com/shorts/HnpfE00rBiU",
-    description: "Authentic user-generated style content created for product marketing and social media campaigns.",
   }
+  
 ];
 
 // Categories
